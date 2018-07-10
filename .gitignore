@@ -1,2 +1,5 @@
 # OS files
 .DS_Store
+
+# Java
+*.class

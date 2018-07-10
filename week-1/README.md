@@ -11,11 +11,20 @@
     * Strategy
 
 ## Materials
-* Test for Java Basics [OCA / OCP Practice Tests](http://www.allitebooks.com/oca-ocp-practice-tests/), Chapter 1
-* Head First Design Patterns, Chapter 1
+* Java Basics
+    * Test for Java Basics [OCA / OCP Practice Tests](http://www.allitebooks.com/oca-ocp-practice-tests/), Chapter 1
+    * [Preparation for Java Programmer Language Certification](https://docs.oracle.com/javase/tutorial/extra/certification/index.html)
+    * [Java tutorials](http://tutorials.jenkov.com/)
+* Design Patterns
+    * Head First Design Patterns, Chapter 1
 
 ## Practical task
 Use strategy pattern implement sorting of integers with different sorting algorithms (e.g. bubble, insertion, etc. sort).
+Features:
+* Checkstyle
+* Gradle build
+* JUnit tests
+* Mocking with Mockito
 
 Example 1 of interaction
 ```shell
