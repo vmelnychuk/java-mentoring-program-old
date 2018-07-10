@@ -1,0 +1,1 @@
+This repository contains plan and notes for Java mentoring program.
