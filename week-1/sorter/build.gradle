@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
+
+group 'io.neko'
+version '0.0.1-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.20.0'
+}
+
+jar {
+    manifest {
+        attributes(
+            "Main-Class": "io.neko.Main"
+        )
+    }
+    archiveName = 'sorter.jar'
+}
+
+
+checkstyle {
+    configFile file('checkstyle.xml')
+}

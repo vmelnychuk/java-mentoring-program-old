@@ -28,14 +28,14 @@ Features:
 
 Example 1 of interaction
 ```shell
-$ java - jar sorter.jar 1 2 3 4 5 6 7 8
+$ java -jar sorter.jar 1 2 3 4 5 6 7 8
 1 2 3 4 5 6 7 8
 time elapsed: 0.01s
 ```
 
 Example 2 of interaction
 ```shell
-$ java - jar sorter.jar 1 2 3 4 5 6 7 8
+$ java -jar sorter.jar 1 2 3 4 5 6 7 8
 Select algorithm of sorting:
 1) Bubble sort
 2) Insert sort
@@ -43,4 +43,11 @@ Select algorithm of sorting:
 Your choice: 2
 1 2 3 4 5 6 7 8
 time elapsed: 0.01s
+```
+
+Example with file
+```shell
+java -jar build/libs/sorter.jar $(cat input.txt)
+1 2 3 4
+time elapsed: 0ms
 ```
