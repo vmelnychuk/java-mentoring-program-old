@@ -4,3 +4,6 @@
 # Java
 *.class
 *.jar
+
+# IDE
+.idea/
