@@ -1,0 +1,5 @@
+rootProject.name = 'publication'
+
+include 'core'
+include 'publisher'
+include 'subscriber'
