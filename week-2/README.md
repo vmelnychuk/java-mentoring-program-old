@@ -1,5 +1,7 @@
 ## Topics to cover
 * Working with Java Data Types
+* Object methods
+    * `hashCode()`, `equals()`, `toString()`
 * Build tools
     * Gradle
         * Multi-module project
@@ -21,7 +23,11 @@
     * [Observer Design Pattern](https://sourcemaking.com/design_patterns/observer)
     * [Immediate State Updates for REST/HTTP APIs using Observer Pattern](https://60devs.com/immediate-state-updates-for-rest-http-apis-using-observer-pattern.html)
     * [Observer Gotchas](https://martinfowler.com/eaaDev/OrganizingPresentations.html#observer-gotchas)
-    
+* Object methods
+    * Effective Java (3rd Edition): Joshua Bloch
+        * Item 9, Item 10
+* Spring Boot
+    * [Consuming a RESTful Web Service](https://spring.io/guides/gs/consuming-rest/)
 
 ## Practical task
 ### Part 1
