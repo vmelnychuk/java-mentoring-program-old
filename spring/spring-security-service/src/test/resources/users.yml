@@ -1,0 +1,12 @@
+users:
+    -
+        username: user
+        password: user
+        roles:
+        - user
+        - admin
+    -
+        username: expire
+        password: expire
+        roles:
+        - user
