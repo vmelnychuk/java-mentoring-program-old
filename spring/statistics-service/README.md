@@ -10,6 +10,7 @@ Calculates realtime statistics from last 60 seconds.
 * JDK 8
 * curl
 * bash
+* IDE with [Lombok](https://projectlombok.org/) plug-in installed and activated.
 
 ### Quick Start
 Follow these steps to build and run service.
